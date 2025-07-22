@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.env
+.env.* 
+*.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Diretórios temporários
+tmp/
+temp/
+.cache/
+coverage/
+.nyc_output/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# SOs
+.DS_Store
+Thumbs.db
+
+# Testes
+jest-html-reporters-*.html
+test-results/
+
+# TypeScript (caso use)
+*.tsbuildinfo
+
+# PM2
+pids/
+*.pid
+*.seed
+*.pid.lock
