@@ -11,7 +11,7 @@ Bem-vindo à minha jornada de aprendizado em **Node.js**! Aqui você encontrará
 | ✅ Módulo 1  | Introdução ao Node.js, NPM, módulos nativos                           | Concluído    |
 | ✅ Módulo 2  | HTTP                                                                  | Concluído    |
 | ✅ Módulo 3  | Fundamentos do Express.js                                             | Concluído    |
-| ✅ Módulo 4  | MySQL Básico                                                          | Concluído    |
+| ✅ Módulo 4  | MySQL Básico(Externo)                                                 | Concluído    |
 | 🚧 Módulo 5  | Projeto #01 Criando uma plataforma de perguntas e respostas           | Em andamento |
 | ⏳ Módulo 6  | Deploy do App Node + MySQL em VPS                                     | Em breve     |
 | ⏳ Módulo 7  | Projeto #02 Criando um blog com painel administrativo e CRUD completo | Em breve     |
