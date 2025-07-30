@@ -3,6 +3,7 @@ const app = express();
 
 // Configurando o EJS
 app.set("view engine", "ejs");
+app.use(express.static("public"));
 
 app.get("/", (req, res) => {
   var nome = "Adriano";
@@ -10,12 +11,20 @@ app.get("/", (req, res) => {
   var idade = 36;
   var email = "adrianoleitedasilva@outlook.com";
   var exibirMsg = false;
+
+  var produtos = [
+    { nome: "Lápis", preco: 1.99 },
+    { nome: "Caneta", preco: 3 },
+    { nome: "Caderno", preco: 29.99 },
+    { nome: "Borracha", preco: 3.99 },
+  ];
   res.render("index", {
     nome: nome,
     lang: lang,
     idade: idade,
     email: email,
     msg: exibirMsg,
+    produtos: produtos,
   });
 });
 
