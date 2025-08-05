@@ -24,7 +24,10 @@ app.use(bodyParser.json());
 
 // Rotas
 app.get("/", (req, res) => {
-  res.render("index");
+  Pergunta.findAll({ raw: true }).then((perguntas) => {
+    // raw: true, vai recuperar apenas os dados importantes para nós
+    res.render("index", { perguntas: perguntas });
+  });
 });
 
 app.get("/perguntar", (req, res) => {
